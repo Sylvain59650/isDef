@@ -24,7 +24,7 @@ This function returns true if its argument is neither null nor undefined.
 
 I'm tired of always writing the same function of a single line in all my projects so I add it in npm. This function is eslint OK.
 
-# Integration
+# Integration for browser
 
 To integrate it into your project, different ways:
 add the 3 lines of code below.
@@ -48,6 +48,15 @@ or
 then
     with gulp, you can concatenate your sources and include
     "node_modules/isDef/distrib/isDef.js"
+
+# Integration for Node.js
+ 
+    npm install isDef --save
+
+    const isDef=require("isDef");
+
+    isDef("a");
+
 
 # usage
 
