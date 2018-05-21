@@ -1,23 +1,23 @@
 <div style="display:inline">
 
-[![build](https://travis-ci.org/Sylvain59650/isDef.png?branch=master)](https://travis-ci.org/Sylvain59650/isDef)
-![version](https://img.shields.io/npm/v/isDef.svg)
-![package](https://img.shields.io/github/package-json/v/Sylvain59650/isDef.svg)
-![dependencies](https://img.shields.io/david/Sylvain59650/isDef.svg)
-[![dependencies graph](https://img.shields.io/badge/dependencies-graph-blue.svg)](http://npm.anvaka.com/#/view/2d/isDef)
-![minified](https://img.shields.io/bundlephobia/min/isDef.svg)
+[![build](https://travis-ci.org/Sylvain59650/isdef.png?branch=master)](https://travis-ci.org/Sylvain59650/isdef)
+![version](https://img.shields.io/npm/v/isdef.svg)
+![package](https://img.shields.io/github/package-json/v/Sylvain59650/isdef.svg)
+![dependencies](https://img.shields.io/david/Sylvain59650/isdef.svg)
+[![dependencies graph](https://img.shields.io/badge/dependencies-graph-blue.svg)](http://npm.anvaka.com/#/view/2d/isdef)
+![minified](https://img.shields.io/bundlephobia/min/isdef.svg)
 ![linter](https://img.shields.io/badge/eslint-ok-blue.svg)
 ![tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)
-![license](https://img.shields.io/npm/l/isDef.svg)
-[![hits](http://hits.dwyl.com/Sylvain59650/isDef.svg)](http://hits.dwyl.com/Sylvain59650/isDef)
+![license](https://img.shields.io/npm/l/isdef.svg)
+[![hits](http://hits.dwyl.com/Sylvain59650/isdef.svg)](http://hits.dwyl.com/Sylvain59650/isdef)
 </div>
 
  <div class="Note" style="color:orange;font-style:italic">
  
-  The lastest version of this document is available on [Github > isDef](https://github.com/Sylvain59650/isDef/blob/master/README.md)
+  The lastest version of this document is available on [Github > isdef](https://github.com/Sylvain59650/isdef/blob/master/README.md)
 </div>
 
-# isDef
+# isdef
 This function returns true if its argument is neither null nor undefined.
 
 # Why
@@ -37,30 +37,30 @@ add the 3 lines of code below.
 
 or
 
-    npm install isDef --save
+    npm install isdef --save
 then references like this
 
-    <script>node_modules/isDef/distrib/isDef.js</script>
+    <script>node_modules/isdef/distrib/isdef.js</script>
 
 or 
 
-    npm install isDef --save
+    npm install isdef --save
 then
     with gulp, you can concatenate your sources and include
-    "node_modules/isDef/distrib/isDef.js"
+    "node_modules/isdef/distrib/isdef.js"
 
 # Integration for Node.js
  
-    npm install isDef --save
+    npm install isdef --save
 
-    const isDef=require("isDef");
+    const isDef=require("isdef");
 
     isDef("a");
 
 
 # usage
 
-When using isDef in your sources,
+When using isdef in your sources,
 add the tag <code>/* global isDef */</code> to pass eslint validation.
 
 # example

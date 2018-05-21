@@ -10,35 +10,35 @@ const chemins = {
 
 
 
-gulp.task("isDef.min.js", () => {
+gulp.task("isdef.min.js", () => {
   return gulp.src([
       "src/**.js"
     ])
-    .pipe(concat("isDef.min.js"))
+    .pipe(concat("isdef.min.js"))
     .pipe(uglify())
     .pipe(gulp.dest(chemins.distrib))
 });
 
-gulp.task("isDef.js", () => {
+gulp.task("isdef.js", () => {
   return gulp.src([
       "src/**.js"
     ])
-    .pipe(concat("isDef.js"))
+    .pipe(concat("isdef.js"))
     .pipe(gulp.dest(chemins.distrib))
 });
 
-gulp.task("isDef-node.js", () => {
+gulp.task("isdef-node.js", () => {
   return gulp.src([
       "src/**.js"
     ])
-    .pipe(concat("isDef-node.js"))
+    .pipe(concat("isdef-node.js"))
     .pipe(replace("window.", "global."))
     .pipe(gulp.dest(chemins.distrib))
 });
 
 
 
-gulp.task("default", ["isDef.min.js", "isDef.js", "isDef-node.js"]);
+gulp.task("default", ["isdef.min.js", "isdef.js", "isdef-node.js"]);
 
 
 gulp.task("all", ["default"]);
