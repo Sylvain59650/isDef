@@ -14,7 +14,7 @@
     "isDef",
     "undefined",
     "null",
-    "is not null"
+    "is not null","is-def","defined"
   ],
   "author": "Sylvain LONGEPEE",
   "license": "MIT",
