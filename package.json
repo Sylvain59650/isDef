@@ -1,5 +1,5 @@
 {
-  "name": "isdef",
+  "name": "isnotnull",
   "version": "0.8.0",
   "description": "returns true if its argument is neither null nor undefined.",
   "main": "distrib/isdef-node.js",
