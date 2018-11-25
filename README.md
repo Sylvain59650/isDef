@@ -7,6 +7,7 @@
 [![dependencies graph](https://img.shields.io/badge/dependencies-graph-blue.svg)](http://npm.anvaka.com/#/view/2d/isnotnull)
 ![minified](https://img.shields.io/bundlephobia/min/isnotnull.svg)
 ![linter](https://img.shields.io/badge/eslint-ok-blue.svg)
+<a href="https://codeclimate.com/github/Sylvain59650/isnotnull/maintainability"><img src="https://api.codeclimate.com/v1/badges/0ce5a5ba42a917f7d49c/maintainability" /></a>
 ![tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)
 ![license](https://img.shields.io/npm/l/isnotnull.svg)
 [![hits](http://hits.dwyl.com/Sylvain59650/isnotnull.svg)](http://hits.dwyl.com/Sylvain59650/isnotnull)
