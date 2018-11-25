@@ -6,3 +6,4 @@ src/
 gulpfile.js
 .eslint*
 .gitignore
+.codeclimate*
