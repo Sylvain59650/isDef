@@ -1,29 +1,37 @@
 {
   "name": "isnotnull",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "returns true if its argument is neither null nor undefined.",
-  "main": "distrib/isdef-node.js",
+  "main": "./distrib/isdef.min.js",
   "scripts": {
     "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sylvain59650/isdef.git"
+    "url": "git+https://github.com/Sylvain59650/isnotnull.git"
   },
   "keywords": [
     "isdef",
     "undefined",
     "null",
-    "is not null","is-def","defined"
+    "is not null",
+    "is-def",
+    "defined"
   ],
-  "author": "Sylvain LONGEPEE",
+  "author": "sylvain59",
+  "maintainers": [
+    {
+      "name": "sylvain59",
+      "email": "slongepee@laposte.net"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sylvain59650/isdef/issues"
+    "url": "https://github.com/Sylvain59650/isnotnull/issues"
   },
-  "homepage": "https://github.com/Sylvain59650/isdef#readme",
+  "homepage": "https://github.com/Sylvain59650/isnotnull#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-replace": "^1.0.0",
     "gulp-uglify": "^3.0.0"

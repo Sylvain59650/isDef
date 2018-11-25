@@ -38,7 +38,4 @@ gulp.task("isdef-node.js", () => {
 
 
 
-gulp.task("default", ["isdef.min.js", "isdef.js", "isdef-node.js"]);
-
-
-gulp.task("all", ["default"]);
+gulp.task("default", gulp.series("isdef.min.js", "isdef.js", "isdef-node.js"));
